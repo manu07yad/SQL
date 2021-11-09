@@ -1,0 +1,8 @@
+create table Customer(  
+    Name varchar(20),  
+    C_id number(6) primary key not null,  
+    Bdate varchar(20),  
+    Address varchar(30),  
+    Salary number(10), 
+    city varchar(20) 
+)
